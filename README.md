@@ -23,7 +23,7 @@ Pretty basic. But here is where it gets interesting...
 
   - "Blue Distinction Plus", being a highly sought distinction, never decreases in quality
 
-  - "Blue Compare", similar to "Blue First", increases in quality as the expiration date approaches; Quality increases by 2 when there are 10 days or less left, and by 3 where there are 5 days or less left, but quality value drops to 0 after the expiration date.
+  - "Blue Compare", similar to "Blue First", increases in quality as the expiration date approaches; Quality increases by 2 when there are 10 days or fewer left, and by 3 where there are 5 days or less left, but quality value drops to 0 after the expiration date.
 
   - Just for clarification, an award can never have its quality increase above 50, however "Blue Distinction Plus", being highly sought, its quality is 80 and it never alters.
 
@@ -33,7 +33,7 @@ We have recently gotten a request from our clients to include an additional awar
 
 Here is the business story:
 
-- In order to distinguish between providers of high quality, as a consumer, I want to see "Blue Star" awarded providers near the top of the results when the award is initially granted, but it's impact should be smaller the longer it has been from the grant date.
+- In order to distinguish between providers of high quality, as a consumer, I want to see "Blue Star" awarded providers near the top of the results when the award is initially granted, but its impact should be smaller the longer it has been from the grant date.
 
 - Acceptance Criteria
   - "Blue Star" awards should lose quality value twice as fast as normal awards.
